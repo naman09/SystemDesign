@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T16:53:57.743Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PZkTNfq0iMX2P8B_J1Bs" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T16:55:35.778Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MgwgDQUG4kruaY0SQa09" version="22.1.3" type="github">
   <diagram name="Page-1" id="xJvcXuqUQ8Qbdydhz7cT">
-    <mxGraphModel dx="1628" dy="2285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1357" dy="2099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,9 +72,12 @@
         <mxCell id="weApvxQsDmEx9xJzjFPK-25" value="&lt;b&gt;Client side optimisation&lt;/b&gt;&lt;br&gt;accumulate transaction logs for a time &lt;br&gt;period or logs size reaches a threshold &lt;br&gt;and then send all together&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="550" width="230" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="weApvxQsDmEx9xJzjFPK-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="weApvxQsDmEx9xJzjFPK-30" target="weApvxQsDmEx9xJzjFPK-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-30" value="Bot" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="740" width="209" height="120" as="geometry">
-            <mxRectangle x="340" y="740" width="70" height="30" as="alternateBounds" />
+          <mxGeometry x="130" y="770" width="209" height="120" as="geometry">
+            <mxRectangle x="130" y="770" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="weApvxQsDmEx9xJzjFPK-30">
@@ -117,8 +120,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-43" value="Transaction" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="740" width="180" height="210" as="geometry">
-            <mxRectangle x="340" y="740" width="70" height="30" as="alternateBounds" />
+          <mxGeometry x="640" y="785" width="180" height="210" as="geometry">
+            <mxRectangle x="660" y="785" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="weApvxQsDmEx9xJzjFPK-43">
@@ -200,8 +203,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-76" value="BotRun" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="760" width="180" height="90" as="geometry">
-            <mxRectangle x="340" y="740" width="70" height="30" as="alternateBounds" />
+          <mxGeometry x="400" y="785" width="180" height="90" as="geometry">
+            <mxRectangle x="420" y="785" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="weApvxQsDmEx9xJzjFPK-76">
@@ -232,7 +235,7 @@
         </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-101" value="BotSDLC" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="920" width="180" height="210" as="geometry">
-            <mxRectangle x="340" y="740" width="70" height="30" as="alternateBounds" />
+            <mxRectangle x="130" y="920" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="weApvxQsDmEx9xJzjFPK-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="weApvxQsDmEx9xJzjFPK-101">
@@ -312,6 +315,12 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="weApvxQsDmEx9xJzjFPK-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="weApvxQsDmEx9xJzjFPK-77" target="weApvxQsDmEx9xJzjFPK-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="weApvxQsDmEx9xJzjFPK-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="weApvxQsDmEx9xJzjFPK-73" target="weApvxQsDmEx9xJzjFPK-105">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
